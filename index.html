@@ -4,7 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav class="header__navigation">
+        <ul class="header__navigation__list">
+          <li class="header__navigation__list-item 
+          header__link-active
+          header__navigation__list-item_no-bullit">
+            главная
+          </li>
+          <li class="header__navigation__list-item">
+            <a href="#0" class="header__navigation-link">посмотреть лоты</a>
+          </li>
+          <li class="header__navigation__list-item">
+            <a href="#0" class="header__navigation-link">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#0" class="header__logo">
+        <img 
+        class="header__logo-image"
+        src="/images/logo-black.svg" 
+        alt="Логотип сайта - Оно тебе надо" 
+        >
+      </a>
+      <address class="header__contact-info">
+        <ul class="header__contact-info-list">
+          <li class="header__contact-info-item">
+            <a class="header__contact-phone" href="tel:+70000000" >+9 999 555 5555</a>
+          </li>
+          <li class="header__contact-info-item">
+            <a class="header__contact-mail" href="mailto:mail@example.com">info@sobaka.ge</a>
+          </li>
+          <li class="header__contact-info-item item-active">
+            наб. Принсенграхт 263-265
+          </li>
+          <li class="header__contact-info-item item-active">
+            Амстердам
+          </li>
+        </ul>
+      </address>
+    </header>
+    <section class="cover"></section>
+    <section class="lots"></section>
+    <section class="about"></section>
+    <footer class="footer"></footer>
+  </body>
 </html>
