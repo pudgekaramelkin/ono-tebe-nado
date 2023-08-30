@@ -97,8 +97,8 @@ body {
 }
 
 .aligned-text_center {
-  padding-right: 30px; 
   text-align: center;
+  padding-right: 30px; 
 }
 
 .aligned-text_right {
@@ -134,9 +134,9 @@ body {
 }
 
 .bet-button {
+  padding: 12px 32px;   
   border: 1px solid #fff;
   background: none;
-  padding: 12px 32px;   
   color: #FFF;
   text-align: center;
   font-family: Raleway;
@@ -214,9 +214,9 @@ body {
 }
 
 .card-title {
+  line-height: 120%; 
   font-size: 22px;
   font-weight: 700;
-  line-height: 120%; 
   text-decoration-line: underline;
   text-transform: uppercase;
   text-underline-offset: 3px;
