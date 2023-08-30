@@ -24,7 +24,6 @@ body {
 .header__navigation__list-item {
   line-height: normal;
   list-style: circle;
-  text-decoration: underline;
 }
 
 .header__link-active {
@@ -46,13 +45,15 @@ body {
   height: 100%;
 }
 
-.header__contact-info {
+.address__contact-info {
   justify-self: end;
   font-style: normal;
   line-height: 24.3px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.header__contact-info-item {
+.address__contact-info-item {
   list-style: none;
 }
 
@@ -280,4 +281,40 @@ body {
 .about__text-main {
   font-size: 20px;
   font-weight: 400;
+}
+
+.footer {
+  display: grid;
+  padding: 0 50px 90px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.address-left {
+  justify-self: start;
+}
+
+.footer__menu-list {
+  justify-self: center;
+  list-style: none;
+  text-underline-offset: 3px;
+}
+
+.footer__menu-list-item {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__link-active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-self: end;
+  gap: 47px;
+}
+
+.footer__social-icon {
+  height: 48px;
 }
